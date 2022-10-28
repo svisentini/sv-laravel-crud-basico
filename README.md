@@ -70,7 +70,16 @@ https://imasters.com.br/php/como-fazer-um-crud-no-laravel-do-zero-parte-1
 - Criar controller		>>>  php artisan make:controller ProdutosController   (app\Http\Controllers)
 
 
+## Rodando o projeto
 
+- Run >> git clone 'link projer github'
+- Run >> composer install --ignore-platform-req=ext-curl
+- Run >> cp .env.example .env 
+- Edit .env file with DB information
+- Run >> php artisan key:generate
+- Run >> php artisan migrate
+- Run >> php artisan db:seed
+- Run >> php artisan serve
 
 
 
